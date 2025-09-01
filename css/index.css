@@ -1,0 +1,24 @@
+.tip {
+    position: absolute;
+    width: 400px;
+    z-index: 99999999;
+    border: 1px dashed gray;
+    text-align: right;
+    color: gray;
+}
+
+.selected-code-box {
+    position: absolute;
+    width: 400px;
+    height: 30px;
+    z-index: 99999999;
+}
+
+#btnNoteSwitch {
+    text-decoration: none
+}
+
+select {
+    border: none;
+    outline: none;
+}

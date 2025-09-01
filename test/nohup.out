@@ -1,0 +1,46 @@
+Bottle v0.13-dev server starting up (using WSGIRefServer())...
+Listening on http://127.0.0.1:8080/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [18/Jun/2024 22:53:59] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [18/Jun/2024 22:54:01] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [18/Jun/2024 22:55:01] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [18/Jun/2024 23:08:36] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [18/Jun/2024 23:25:20] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [18/Jun/2024 23:25:26] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:43] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:43] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:43] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [18/Jun/2024 23:25:52] "POST /add HTTP/1.1" 200 14
+Bottle v0.13-dev server starting up (using WSGIRefServer())...
+Listening on http://127.0.0.1:8080/
+Hit Ctrl-C to quit.
+
+nohup: python: No such file or directory
+Bottle v0.13-dev server starting up (using WSGIRefServer())...
+Listening on http://127.0.0.1:8080/
+Hit Ctrl-C to quit.
+
+127.0.0.1 - - [19/Jun/2024 00:21:18] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [19/Jun/2024 09:55:28] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [19/Jun/2024 09:55:49] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 09:55:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 09:55:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:05:09] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [19/Jun/2024 22:05:15] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [19/Jun/2024 22:05:22] "GET /mock HTTP/1.1" 200 552
+127.0.0.1 - - [19/Jun/2024 22:05:31] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:05:32] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:05:32] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:05:32] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:25:38] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:28:51] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:28:51] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:28:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:28:52] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:29:20] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:29:20] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:29:20] "POST /add HTTP/1.1" 200 14
+127.0.0.1 - - [19/Jun/2024 22:29:39] "POST /add HTTP/1.1" 200 14

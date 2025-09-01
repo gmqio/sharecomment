@@ -1,0 +1,30 @@
+{
+   "action": {
+      "default_popup": "html/popup-input.html"
+   },
+   "background": {
+      "service_worker": "script/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/index.css" ],
+      "images": [  ],
+      "js": [ "script/jquery-3.7.1.min.js", "script/content_script.js" ],
+      "matches": [ "https://github.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "ShareComment's designed for write, read, share comments on github source code with some BIG guy",
+   "icons": {
+      "128": "images/128.png",
+      "16": "images/16.png",
+      "256": "images/256.png",
+      "32": "images/32.png",
+      "64": "images/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4eJ6c0LC7tyzHmEDFBf4K3GRb1YOL+djXgbXNFMN9Gbu3J1rJhlnYEP6y9UE6ru0sZ5CqjRT2umnTNEBW2A4tMf8iLtKNQuaUgMrGbmKTgeTk68kcR/nI0tb3vQu/pAjrqaFVFdHPfzEv/xEUBUqCw0GQilKegGLoeZjZOKX8ubHY4SfluoT/g1E9iPKIkh6NU4CqY/+pgYiCmTC2R7vzaV8fWgdL+J7FW3DntgOCcKrNXXWYX71OD04yYl/FmA4DvmIGfp9nUQ1HVMfPY8cUKPyJWhAOzQgu80fq4VeJKKUZF8mXF3crong6n0xQLUFzRnmZycKM/HFERptL28Q1wIDAQAB",
+   "manifest_version": 3,
+   "name": "Github: Share Comment",
+   "permissions": [ "contextMenus", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.6"
+}
